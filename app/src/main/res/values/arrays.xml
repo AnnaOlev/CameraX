@@ -1,0 +1,14 @@
+<resources>
+
+    <string-array name="voice_speed">
+        <item>Slow</item>
+        <item>Middle</item>
+        <item>Fast</item>
+    </string-array>
+
+    <string-array name="default_mode">
+        <item>Image labeling</item>
+        <item>Face recognition</item>
+        <item>Text recognition</item>
+    </string-array>
+</resources>

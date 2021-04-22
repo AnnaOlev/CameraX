@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="voice_speed">
+            <item>Медленно</item>
+            <item>Средне</item>
+            <item>Быстро</item>
+        </string-array>
+
+        <string-array name="default_mode">
+            <item>Распознавание изображений</item>
+            <item>Распознавание лиц</item>
+            <item>Распознавание текстов</item>
+        </string-array>
+    </resources>

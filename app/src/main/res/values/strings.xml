@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Camera X</string>
+
+    <string name="make_photo">Make photo</string>
+    <string name="settings_button_icon">Settings button icon</string>
+    <string name="flash_button_icon">Flash button icon</string>
+    <string name="repeat_button_icon">Repeat button icon</string>
+    <string name="talk_button_icon">Talk button icon</string>
+    <string name="camera_icon_button">Camera icon button</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="pref_title_torch">Torch mode</string>
+    <string name="pref_key_torch" translatable="false">torch</string>
+    <string name="pref_show_on">On</string>
+    <string name="pref_show_off">Off</string>
+
+    <string name="pref_title_voice">Results voicing</string>
+    <string name="pref_key_voice" translatable="false">voice</string>
+
+    <string name="pref_title_vc">Voice commands</string>
+    <string name="pref_key_vc" translatable="false">voice commands</string>
+
+    <string name="pref_title_saving">Save photos</string>
+    <string name="pref_key_saving" translatable="false">save photo</string>
+
+    <string name="pref_key_mode" translatable="false">default_mode</string>
+
+    <string name="popup_text">Text</string>
+    <string name="popup_title">Title</string>
+    <string name="popup_repeat">Repeat result</string>
+    <string name="popup_close">Close</string>
+    <string name="label_image">Image labeling</string>
+    <string name="text_recognize">Text recognition</string>
+    <string name="faces_recognize">Face recognition</string>
+    <string name="mode_title">Default mode</string>
+    <string name="mode_summary">Default recognition mode</string>
+    <string name="mode_dialog_title">Choose a default recognition mode</string>
+    <string name="speed_title">Playback speed</string>
+    <string name="speed_summary">Results\' playback speed</string>
+    <string name="speed_dialog_title">Choose results\' playback speed</string>
+    <string name="labels_result">Image labeling result</string>
+    <string name="texts_result">Text recognition result</string>
+    <string name="faces_results">Faces recognition result</string>
+
+</resources>

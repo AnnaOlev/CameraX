@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_torch"
+        android:summaryOff="@string/pref_show_off"
+        android:summaryOn="@string/pref_show_on"
+        android:title="@string/pref_title_torch" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_key_voice"
+        android:summaryOff="@string/pref_show_off"
+        android:summaryOn="@string/pref_show_on"
+        android:title="@string/pref_title_voice" />
+
+    <ListPreference
+        android:key="voice_speed"
+        android:title="@string/speed_title"
+        android:summary="@string/speed_summary"
+        android:defaultValue="1"
+        android:entries="@array/voice_speed"
+        android:entryValues="@array/voice_speed"
+        android:dialogTitle="@string/mode_dialog_title" />
+
+    <ListPreference
+        android:key="@string/pref_key_mode"
+        android:title="@string/mode_title"
+        android:summary="@string/mode_summary"
+        android:defaultValue="1"
+        android:entries="@array/default_mode"
+        android:entryValues="@array/default_mode"
+        android:dialogTitle="@string/mode_dialog_title"
+        />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_key_vc"
+        android:summaryOff="@string/pref_show_off"
+        android:summaryOn="@string/pref_show_on"
+        android:title="@string/pref_title_vc" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_saving"
+        android:summaryOn="@string/pref_show_on"
+        android:summaryOff="@string/pref_show_off"
+        android:title="@string/pref_title_saving"/>
+
+</PreferenceScreen>
